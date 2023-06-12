@@ -34,333 +34,211 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 
 <!-- Top Bar Start -->
 <div class="topbar">
+<body>
 
-    <!-- LOGO -->
-    <div class="topbar-left">
-        <div class="text-center">
-            <a href="index.html" class="logo"><i class="icon-magnet icon-c-logo"></i><span>Ub<i class="md md-album"></i>ld</span></a>
-            <!-- Image Logo here -->
-            <!--<a href="index.html" class="logo">-->
-                <!--<i class="icon-c-logo"> <img src="assets/images/logo_sm.png" height="42"/> </i>-->
-                <!--<span><img src="assets/images/logo_light.png" height="20"/></span>-->
-            <!--</a>-->
-        </div>
-    </div>
+    <main>
 
-    <!-- Button mobile view to collapse sidebar menu -->
-    <div class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <div class="">
-                <div class="pull-left">
-                    <button class="button-menu-mobile open-left waves-effect waves-light">
-                        <i class="md md-menu"></i>
-                    </button>
-                    <span class="clearfix"></span>
+        <header class="site-header">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12 d-flex flex-wrap">
+                        <p class="d-flex me-4 mb-0">
+                            <i class="bi-person custom-icon me-2"></i>
+                            <strong class="text-dark">Muhammad Musyary</strong>
+                        </p>
+                    </div>
+
                 </div>
-
-                <ul class="nav navbar-nav hidden-xs">
-                    <li><a href="#" class="waves-effect waves-light">Files</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown"
-                           role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span
-                                class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <form role="search" class="navbar-left app-search pull-left hidden-xs">
-                     <input type="text" placeholder="Search..." class="form-control">
-                     <a href=""><i class="fa fa-search"></i></a>
-                </form>
-
-
-                <ul class="nav navbar-nav navbar-right pull-right">
-                    <li class="dropdown top-menu-item-xs">
-                        <a href="#" data-target="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="true">
-                            <i class="icon-bell"></i> <span class="badge badge-xs badge-danger">3</span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-lg">
-                            <li class="notifi-title"><span class="label label-default pull-right">New 3</span>Notification</li>
-                            <li class="list-group slimscroll-noti notification-list">
-                               <!-- list item-->
-                               <a href="javascript:void(0);" class="list-group-item">
-                                  <div class="media">
-                                     <div class="pull-left p-r-10">
-                                        <em class="fa fa-diamond noti-primary"></em>
-                                     </div>
-                                     <div class="media-body">
-                                        <h5 class="media-heading">A new order has been placed A new order has been placed</h5>
-                                        <p class="m-0">
-                                            <small>There are new settings available</small>
-                                        </p>
-                                     </div>
-                                  </div>
-                               </a>
-
-                               <!-- list item-->
-                               <a href="javascript:void(0);" class="list-group-item">
-                                  <div class="media">
-                                     <div class="pull-left p-r-10">
-                                        <em class="fa fa-cog noti-warning"></em>
-                                     </div>
-                                     <div class="media-body">
-                                        <h5 class="media-heading">New settings</h5>
-                                        <p class="m-0">
-                                            <small>There are new settings available</small>
-                                        </p>
-                                     </div>
-                                  </div>
-                               </a>
-
-                               <!-- list item-->
-                               <a href="javascript:void(0);" class="list-group-item">
-                                  <div class="media">
-                                     <div class="pull-left p-r-10">
-                                        <em class="fa fa-bell-o noti-custom"></em>
-                                     </div>
-                                     <div class="media-body">
-                                        <h5 class="media-heading">Updates</h5>
-                                        <p class="m-0">
-                                            <small>There are <span class="text-primary font-600">2</span> new updates available</small>
-                                        </p>
-                                     </div>
-                                  </div>
-                               </a>
-
-                               <!-- list item-->
-                               <a href="javascript:void(0);" class="list-group-item">
-                                  <div class="media">
-                                     <div class="pull-left p-r-10">
-                                        <em class="fa fa-user-plus noti-pink"></em>
-                                     </div>
-                                     <div class="media-body">
-                                        <h5 class="media-heading">New user registered</h5>
-                                        <p class="m-0">
-                                            <small>You have 10 unread messages</small>
-                                        </p>
-                                     </div>
-                                  </div>
-                               </a>
-
-                                <!-- list item-->
-                               <a href="javascript:void(0);" class="list-group-item">
-                                  <div class="media">
-                                     <div class="pull-left p-r-10">
-                                        <em class="fa fa-diamond noti-primary"></em>
-                                     </div>
-                                     <div class="media-body">
-                                        <h5 class="media-heading">A new order has been placed A new order has been placed</h5>
-                                        <p class="m-0">
-                                            <small>There are new settings available</small>
-                                        </p>
-                                     </div>
-                                  </div>
-                               </a>
-
-                               <!-- list item-->
-                               <a href="javascript:void(0);" class="list-group-item">
-                                  <div class="media">
-                                     <div class="pull-left p-r-10">
-                                        <em class="fa fa-cog noti-warning"></em>
-                                     </div>
-                                     <div class="media-body">
-                                        <h5 class="media-heading">New settings</h5>
-                                        <p class="m-0">
-                                            <small>There are new settings available</small>
-                                        </p>
-                                     </div>
-                                  </div>
-                               </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);" class="list-group-item text-right">
-                                    <small class="font-600">See all notifications</small>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="hidden-xs">
-                        <a href="#" id="btn-fullscreen" class="waves-effect waves-light"><i class="icon-size-fullscreen"></i></a>
-                    </li>
-                    <li class="hidden-xs">
-                        <a href="#" class="right-bar-toggle waves-effect waves-light"><i class="icon-settings"></i></a>
-                    </li>
-                    <li class="dropdown top-menu-item-xs">
-                        <a href="" class="dropdown-toggle profile waves-effect waves-light" data-toggle="dropdown" aria-expanded="true"><img src="assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle"> </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="javascript:void(0)"><i class="ti-user m-r-10 text-custom"></i> Profile</a></li>
-                            <li><a href="javascript:void(0)"><i class="ti-settings m-r-10 text-custom"></i> Settings</a></li>
-                            <li><a href="javascript:void(0)"><i class="ti-lock m-r-10 text-custom"></i> Lock screen</a></li>
-                            <li class="divider"></li>
-                            <li><a href="javascript:void(0)"><i class="ti-power-off m-r-10 text-danger"></i> Logout</a></li>
-                        </ul>
-                    </li>
-                </ul>
             </div>
-            <!--/.nav-collapse -->
-        </div>
-    </div>
-</div>
-<!-- Top Bar End -->
+        </header>
 
 
-<!-- ========== Left Sidebar Start ========== -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    WELCOME
+                </a>
 
-<div class="left side-menu">
-    <div class="sidebar-inner slimscrollleft">
-        <!--- Divider -->
-        <div id="sidebar-menu">
-            <ul>
-                <li class="has_sub">
-                    <a href="<?=Url::to(['mahasiswa1127/index'])?>" class="waves-effect">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_1">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a href="<?=Url::to(['mahasiswa1127/index'])?>" class="nav-link click-scroll">
                     <i class="fafa-mortar-board"></i>
                     <span>Mahasiswa </span>
                 </a>
 
-                </li>
-            </ul>
-            <div class="clearfix"></div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-</div>
-<!-- Left Sidebar End -->
+                    </li>
+                    </ul>
+            </div>
+        </nav>
 
-<!-- ============================================================== -->
-<!-- Start right Content here -->
-<!-- ============================================================== -->
-<div class="content-page">
-    <!-- Start content -->
-    <div class="content">
-        <div class="container">
-            <?= $content ?>
-        </div> <!-- container -->
+        <section class="about-section section-padding" id="section_2">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
+                        <div class="services-info">
+                            <h2 class="text-white mb-4">Project WEB 2</h2>
+
+                        </div>
+                    </div>
+
                    
-    </div> <!-- content -->
+        </section>
 
-    <footer class="footer">
-        © 2016. All rights reserved.
+
+        <section class="artists-section section-padding" id="section_3">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-12 text-center">
+                        <h2 class="mb-4">Tabel Mahasiswa</h1>
+                    </div>
+
+                    <div class="col-lg-5 col-12">
+                        <?= $content ?>
+                    </div>
+
+    <footer class="site-footer">
+        <div class="site-footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12">
+                        <h2 class="text-white mb-lg-0">Project WEB 2</h2>
+                    </div>
+
+                    <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
+                        <ul class="social-icon d-flex justify-content-lg-end">
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-twitter"></span>
+                                </a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-apple"></span>
+                                </a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-instagram"></span>
+                                </a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-youtube"></span>
+                                </a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="#" class="social-icon-link">
+                                    <span class="bi-pinterest"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12 mb-4 pb-2">
+                    <h5 class="site-footer-title mb-3">Links</h5>
+
+                    <ul class="site-footer-links">
+                        <li class="site-footer-link-item">
+                            <a href="#" class="site-footer-link">Home</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                        <a href="<?=Url::to(['mahasiswa1127/index'])?>" class="site-footer-link">
+                    <i class="fafa-mortar-board"></i>
+                    <span>Mahasiswa </span>
+</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                    <h5 class="site-footer-title mb-3">Have a question?</h5>
+
+                    <p class="text-white d-flex mb-1">
+                        <a href="tel: 090-080-0760" class="site-footer-link">
+                            090-080-0760
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex">
+                        <a href="mailto:hello@company.com" class="site-footer-link">
+                            hello@company.com
+                        </a>
+                    </p>
+                </div>
+
+    
+            </div>
+        </div>
+
+        <div class="site-footer-bottom">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-12 mt-5">
+                        <p class="copyright-text">Copyright © 2036 Festava Live Company</p>
+                        <p class="copyright-text">Distributed by: <a href="https://themewagon.com">ThemeWagon</a></p>
+                    </div>
+
+                    <div class="col-lg-8 col-12 mt-lg-5">
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Terms &amp; Conditions</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Privacy Policy</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Your Feedback</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
-</div>
-<!-- ============================================================== -->
-<!-- End Right content here -->
-<!-- ============================================================== -->
-<!-- Right Sidebar -->
-<div class="side-bar right-bar nicescroll">
-    <h4 class="text-center">Chat</h4>
-    <div class="contact-list nicescroll">
-        <ul class="list-group contacts-list">
-            <li class="list-group-item">
-                <a href="#">
-                    <div class="avatar">
-                        <img src="assets/images/users/avatar-1.jpg" alt="">
-                    </div>
-                    <span class="name">Chadengle</span>
-                    <i class="fa fa-circle online"></i>
-                </a>
-                <span class="clearfix"></span>
-            </li>
-            <li class="list-group-item">
-                <a href="#">
-                    <div class="avatar">
-                        <img src="assets/images/users/avatar-2.jpg" alt="">
-                    </div>
-                    <span class="name">Tomaslau</span>
-                    <i class="fa fa-circle online"></i>
-                </a>
-                <span class="clearfix"></span>
-            </li>
-            <li class="list-group-item">
-                <a href="#">
-                    <div class="avatar">
-                        <img src="assets/images/users/avatar-3.jpg" alt="">
-                    </div>
-                    <span class="name">Stillnotdavid</span>
-                    <i class="fa fa-circle online"></i>
-                </a>
-                <span class="clearfix"></span>
-            </li>
-            <li class="list-group-item">
-                <a href="#">
-                    <div class="avatar">
-                        <img src="assets/images/users/avatar-4.jpg" alt="">
-                    </div>
-                    <span class="name">Kurafire</span>
-                    <i class="fa fa-circle online"></i>
-                </a>
-                <span class="clearfix"></span>
-            </li>
-            <li class="list-group-item">
-                <a href="#">
-                    <div class="avatar">
-                        <img src="assets/images/users/avatar-5.jpg" alt="">
-                    </div>
-                    <span class="name">Shahedk</span>
-                    <i class="fa fa-circle away"></i>
-                </a>
-                <span class="clearfix"></span>
-            </li>
-            <li class="list-group-item">
-                <a href="#">
-                    <div class="avatar">
-                        <img src="assets/images/users/avatar-6.jpg" alt="">
-                    </div>
-                    <span class="name">Adhamdannaway</span>
-                    <i class="fa fa-circle away"></i>
-                </a>
-                <span class="clearfix"></span>
-            </li>
-            <li class="list-group-item">
-                <a href="#">
-                    <div class="avatar">
-                        <img src="assets/images/users/avatar-7.jpg" alt="">
-                    </div>
-                    <span class="name">Ok</span>
-                    <i class="fa fa-circle away"></i>
-                </a>
-                <span class="clearfix"></span>
-            </li>
-            <li class="list-group-item">
-                <a href="#">
-                    <div class="avatar">
-                        <img src="assets/images/users/avatar-8.jpg" alt="">
-                    </div>
-                    <span class="name">Arashasghari</span>
-                    <i class="fa fa-circle offline"></i>
-                </a>
-                <span class="clearfix"></span>
-            </li>
-            <li class="list-group-item">
-                <a href="#">
-                    <div class="avatar">
-                        <img src="assets/images/users/avatar-9.jpg" alt="">
-                    </div>
-                    <span class="name">Joshaustin</span>
-                    <i class="fa fa-circle offline"></i>
-                </a>
-                <span class="clearfix"></span>
-            </li>
-            <li class="list-group-item">
-                <a href="#">
-                    <div class="avatar">
-                        <img src="assets/images/users/avatar-10.jpg" alt="">
-                    </div>
-                    <span class="name">Sortino</span>
-                    <i class="fa fa-circle offline"></i>
-                </a>
-                <span class="clearfix"></span>
-            </li>
-        </ul>
-    </div>
-</div>
-<!-- /Right-bar -->
-</div>
+    <!--
+
+T e m p l a t e M o
+
+-->
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+
 <?php $this->endBody() ?>
 </body>
 </html>

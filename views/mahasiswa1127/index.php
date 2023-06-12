@@ -27,5 +27,3 @@
         ],
     ])
 ?>
-
-<?= Html::a('Mahasiswa Baru', ['mahasiswa/create'], ['class' => 'btn btn-primary']) ?>

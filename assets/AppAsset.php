@@ -20,26 +20,18 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'template/css/site.css',
         'template/css/bootstrap.min.css',
-        'template/css/core.css',
-        'template/css/components.css',
-        'template/css/icons.css',
-        'template/css/pages.css',
-        'template/css/responsive.css',
+        'template/css/bootstrap-icons.css',
+        'template/css/templatemo-festava-live.css',
+        
     ];
     public $js = [
         'template/js/bootstrap.min.js',
         'template/js/jquery.min.js',
-        'template/js/detect.js',
-        'template/js/fastclick.js',
-        'template/js/jquery.slimscroll.js',
-        'template/js/jquery.blockUI.js',
-        'template/js/waves.js',
-        'template/js/wow.min.js',
-        'template/js/jquery.nicescroll.js',
-        'template/js/jquery.scrollTo.min.js',
-
+        'template/js/jquery.sticky.js',
+        'template/js/custom.js',
+        'template/js/click-scroll.js'
+        
     ];
     public $depends = [
         'yii\web\YiiAsset',
